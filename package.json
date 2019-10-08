@@ -1,0 +1,31 @@
+{
+  "name": "level-up-testing",
+  "version": "1.0.0",
+  "description": "Level Up Workshop at Coding Sans for Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kari0003/level-up-testing.git"
+  },
+  "author": "kari0003",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kari0003/level-up-testing/issues"
+  },
+  "homepage": "https://gitlab.com/kari0003/level-up-testing#README",
+  "dependencies": {},
+  "devDependencies": {
+    "@codingsans/eslint-config": "3.1.0",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.11",
+    "eslint": "6.5.1",
+    "jest": "24.9.0",
+    "prettier": "1.18.2",
+    "ts-jest": "24.1.0",
+    "typescript": "3.6.3"
+  }
+}
