@@ -8,9 +8,24 @@ describe('Kekspress', () => {
     });
   });
 
-  describe('nextStop', () => {});
+  describe('nextStop', () => {
+    test('should be undefined', () => {
+      const kekspress = new Kekspress(9);
+      expect(kekspress.nextStop(5)).toBeUndefined();
+    });
+  });
 
-  describe('board', () => {});
+  describe('board', () => {
+    test('should be undefined', () => {
+      const kekspress = new Kekspress(9);
+      expect(kekspress.board('Bob', 3)).toBeUndefined();
+    });
+  });
 
-  describe('getOff', () => {});
+  describe('getOff', () => {
+    test('should be undefined', () => {
+      const kekspress = new Kekspress(9);
+      expect(kekspress.getOff('Bob')).toBeUndefined();
+    });
+  });
 });
