@@ -19,13 +19,13 @@
   "homepage": "https://gitlab.com/kari0003/level-up-testing#README",
   "dependencies": {},
   "devDependencies": {
-    "@codingsans/eslint-config": "3.1.0",
-    "@types/jest": "24.0.18",
-    "@types/node": "12.7.11",
-    "eslint": "6.5.1",
-    "jest": "24.9.0",
-    "prettier": "1.18.2",
-    "ts-jest": "24.1.0",
-    "typescript": "3.6.3"
+    "@codingsans/eslint-config": "4.0.0",
+    "@types/jest": "25.1.4",
+    "@types/node": "13.9.1",
+    "eslint": "6.8.0",
+    "jest": "25.1.0",
+    "prettier": "1.19.1",
+    "ts-jest": "25.2.1",
+    "typescript": "3.8.3"
   }
 }
